@@ -11,7 +11,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/OLA_Cleaned_Data.csv")
+    df = pd.read_csv("OLA_Cleaned_Data.csv")
     df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
     return df
 
