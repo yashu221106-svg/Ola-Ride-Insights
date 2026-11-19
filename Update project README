@@ -1,0 +1,85 @@
+# 🚕 Ola Ride Insights – Ride-Sharing & Mobility Analytics
+
+## 📌 Project Overview
+Ola Ride Insights is a data analytics project focused on understanding ride-booking patterns, revenue performance, cancellations, vehicle usage, and customer and driver ratings.
+
+The project uses Python, SQL, Power BI, and Streamlit to transform raw ride-booking data into meaningful business insights.
+
+## 🎯 Project Objectives
+- Analyse overall ride-booking trends.
+- Understand booking status and cancellation patterns.
+- Evaluate revenue across payment methods.
+- Identify popular vehicle types and customer segments.
+- Analyse customer and driver ratings.
+- Present insights through interactive dashboards.
+
+## 📂 Dataset
+- **Source:** Ola ride-booking dataset
+- **Period:** July 2024
+- **Records:** 103,024 bookings
+- **Columns:** 20
+
+## 🛠️ Tools & Technologies
+- Python – Data cleaning and analysis
+- Pandas – Data manipulation
+- SQL – Business queries
+- Power BI – Interactive dashboards
+- Streamlit – Web application
+- Plotly – Data visualisation
+
+## 📊 Key Project Findings
+- Total bookings: 103,024
+- Successful bookings: 63,967
+- Customer cancellations: 10,499
+- Driver cancellations: 18,434
+- Successful booking revenue: ₹35,080,467
+
+## 📈 Power BI Dashboard
+The Power BI dashboard contains five analytical sections:
+
+1. Overall Ride Insights
+2. Vehicle Type Analysis
+3. Revenue Analysis
+4. Cancellation Analysis
+5. Ratings Analysis
+
+## 💻 Streamlit Application
+The Streamlit application provides:
+- Interactive filters
+- Key performance indicators
+- Booking and revenue analysis
+- Vehicle and ratings analysis
+- SQL-style analytical results
+
+**Note:** The application's SQL-style results are calculated using Pandas on the cleaned dataset; they are not live MySQL query executions.
+
+## 📁 Project Deliverables
+- Cleaned dataset
+- Python scripts
+- SQL query file
+- Power BI dashboard
+- Streamlit application
+- Project documentation PDF
+- Visualisation images
+
+## ▶️ How to Run the Streamlit Application
+
+1. Clone or download this repository.
+2. Install the required libraries:
+
+```bash
+pip install streamlit pandas plotly openpyxl
+```
+
+3. Run the application:
+
+```bash
+python -m streamlit run app.py
+```
+
+## 📝 Conclusion
+This project demonstrates how ride-booking data can be analysed to identify operational trends, revenue patterns, and customer behaviour. It combines data analysis, visualisation, and interactive reporting to support data-driven business decisions.
+
+---
+**Project:** Ola Ride Insights  
+**Domain:** Ride-Sharing & Mobility Analytics
